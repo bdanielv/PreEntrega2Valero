@@ -4,66 +4,72 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Porsche 911 Carrera T</title>
+    <title>Porsche</title>
     <!-- favicon -->
-    <link rel="shortcut icon" href="./img/iconos/logo_porsche.png" type="image/x-icon">
+    <link rel="shortcut icon" href="./img/iconos/favicon_logo.png" type="image/x-icon">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-    <!-- link a mi hoja de estilos  FORMA RECOMENDADA-->
-    <link rel="stylesheet" href="./css/style.css">
-    <!-- segunda forma NO RECOMENDAD -->
-    <style>
-        /* h2{
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+</head>
+
+<!-- link a mi hoja de estilos  FORMA RECOMENDADA-->
+<link rel="stylesheet" href="./css/style.css">
+<!-- segunda forma NO RECOMENDAD -->
+<style>
+    /* h2{
             color: red;
         } */
-    </style>
+</style>
 </head>
 
 <body class="bg-pattern">
-    <!-- starts nav -->
-    <nav class="menu">
-        <img class="logo" src="./img/iconos/logo_porsche.png" alt="HOME">
-        <ul>
-            <!-- vinculos relativos -->
-            <li>
-                <a href="./pages/home.html">HOME</a>
-            </li>
-            <li>
-                <a href="./pages/promos.html">GALERIA</a>
-            </li>
-            <li>
-                <a href="./pages/nosotros.html">HISTORIA</a>
-            </li>
-            <li>
-                <a href="./pages/contacto.html">PRODUCTOS</a>
-            </li>
-            <li>
-                <a href="./pages/contacto.html">CONTACTO</a>
-            </li>
-        </ul>
-    </nav>
+    <div class="col row">
+        <nav class="navbar">
+            <div class="col-3">
+                <img class="logo" src="./img/iconos/logo_porsche.png" alt="HOME">
+            </div>
+            <div class="col-9">
+                <ul class="nav justify-content-center">
+                    <li class="nav-item ms-4 me-4">
+                        <a class="nav-link active" aria-current="page" href="index.html">HOME</a>
+                    </li>
+                    <li class="nav-item ms-4 me-4">
+                        <a class="nav-link" href="pages/galeria.html">GALERIA</a>
+                    </li>
+                    <li class="nav-item ms-4 me-4">
+                        <a class="nav-link" href="pages/historia.html">HISTORIA</a>
+                    </li>
+                    <li class="nav-item ms-4 me-4">
+                        <a class="nav-link" href="pages/productos.html">PRODUCTOS</a>
+                    </li>
+                    <li class="nav-item ms-4 me-4">
+                        <a class="nav-link" href="pages/contacto.html">CONTACTO</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </div>
     <!-- ends nav -->
     <!-- starts presentation -->
     <header>
         <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img src="./img/porsche_1.jpeg" class="d-block w-100" alt="exterior">
+                    <img src="img/porsche_1.jpg" class="d-block w-100" alt="...">
                 </div>
                 <div class="carousel-item">
-                    <img src="./img/porsche_2.jpeg" class="d-block w-100" alt="">
+                    <img src="img/porsche_2.jpg" class="d-block w-100" alt="...">
                 </div>
                 <div class="carousel-item">
-                    <img src="./img/porsche_3.jpeg" class="d-block w-100" alt="...">
+                    <img src="img/porsche_3.jpg" class="d-block w-100" alt="...">
                 </div>
                 <div class="carousel-item">
-                    <img src="./img/porsche_4.jpeg" class="d-block w-100" alt="...">
+                    <img src="img/porsche_4.jpg" class="d-block w-100" alt="...">
                 </div>
                 <div class="carousel-item">
-                    <img src="./img/porsche_5.jpeg" class="d-block w-100" alt="...">
-                </div>
-                <div class="carousel-item">
-                    <img src="./img/porsche_6.jpeg" class="d-block w-100" alt="...">
+                    <img src="img/porsche_5.jpg" class="d-block w-100" alt="...">
                 </div>
             </div>
             <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
@@ -81,38 +87,157 @@
     <!-- ends presentation -->
     <main>
         <!-- starts intro -->
-        <section>
-            <h1>PORSCHE 911 CARRERA T</h1>
-            <p>La silueta del 911 Carrera es inconfundible gracias a la icónica línea de techo que se inclina
-                elegantemente, y que ha conformado
-                el ADN de la marca Porsche desde 1963, al igual que las extraordinarias prestaciones de sus vehículos
-                deportivos. La versión coupé
-                del 911 encarna el ADN Porsche en su forma más pura: un capó largo y plano, parabrisas con marcado
-                ascenso y una línea de techo
-                en suave descenso hacia atrás caracterizaban ya al primer 911. El carácter deportivo se refuerza con los
-                retrovisores exteriores, las
-                molduras decorativas, la rejilla del capó trasero y, en las puertas, el distintivo «PORSCHE» en color de
-                contraste Gris Ágata.
-                Las dos variantes de la inscripción trasera también cuentan con un acabado en color Gris Ágata.</p>
+        <section class="m-5 p-4">
+            <h1><b>UNA FILOSOFÍA QUE SE COMBINA CON EL ESPÍRITU DE UNA ÉPOCA</b></h1>
+            <div class="col row">
+                <div class="col-8 p-5">
+                    <p class="mt-5">En 1963, el Profesor Ferdinand Alexander Porsche creó uno de los objetos de
+                        diseño
+                        más importantes de la historia
+                        contemporánea con el 911. Con su visión de llevar los principios y la leyenda de Porsche más
+                        allá de
+                        los límites del
+                        automóvil, fundó la exclusiva marca de estilo de vida Porsche Design en 1972. Su filosofía y
+                        lenguaje de diseño
+                        perduran en todos los productos de Porsche Design hasta el día de hoy.</p>
+
+                    <p>Las características únicas de la marca se deben al fundador de la empresa, a su personalidad y su
+                        historia:
+                        el mayor de los cuatro hijos de Dorothea y Ferry Porsche nació el 11 de diciembre de 1935 y, de
+                        niño, pasaba
+                        mucho tiempo en las oficinas de diseño y desarrollo de su abuelo, en Stuttgart. En 1943 la
+                        familia se estableció
+                        en Austria y el Prof. Ferdinand Alexander Porsche fue al colegio en Zell am See.</p>
+
+                    <p>Ferdinand Alexander Porsche no atrajo mucha atención hacia su persona. Siguió siendo un diseñador
+                        tranquilo y de clase mundial. Sin embargo, la competencia, el ingenio y el delicado diseño en
+                        cada uno
+                        de sus coches, lo llevo a posicionarse en el podio de la industria automotriz y ser referente en
+                        los vehículos de
+                        alto rendimiento, no solo por la ingeniería de su motor, también por la pasión y la dedicación
+                        que se ve reflejada
+                        cada uno de los modelos de porsche.</p>
+                </div>
+                <div class="col-4 mt-5">
+                    <div class="card mt-5" style="width: 34rem;">
+                        <img src="img/ferdinand_alexander.jpeg" class="card-img-top" alt="Ferdinand Alexander">
+                    </div>
+                </div>
+            </div>
         </section>
         <!-- ends intro -->
         <!-- starts products -->
-        <section>
-            <h2 class="text-bold">Productos destacados</h2>
+        <section class="m-5 p-5">
+            <h2><b>MODELOS</b></h1>
+                <div class="card-group mt-5">
+                    <div class="card">
+                        <img src="img/porsche_718.jpg" class="card-img-top" alt="718">
+                        <div class="card-body">
+                            <h5 class="card-title">718</h5>
+                            <p class="card-text text-start">Un objetivo: acabar con la monotonía del día a día.</p>
+                            <a href="#" class="btn btn-secondary">Conoce ahora el 718</a>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="img/porsche_911.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">911</h5>
+                            <p class="card-text text-start">Una renuncia consciente para un mayor disfrute de la
+                                conducción.</p>
+                            <a href="#" class="btn btn-secondary">Conoce ahora el 911</a>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="img/porsche_taycan.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Taycan</h5>
+                            <p class="card-text text-start">Nunca cinco letras habían logrado irradiar tanta
+                                fascinación.</p>
+                            <a href="#" class="btn btn-secondary">Conoce ahora el nuevo Taycan</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card-group">
+                    <div class="card">
+                        <img src="img/porsche_panamera.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Panamera</h5>
+                            <p class="card-text text-start">¿Debe un sedán deportivo tener la típica apariencia de un
+                                sedán?</p>
+                            <a href="#" class="btn btn-secondary">Conoce ahora el Panamera</a>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="img/porsche_macan.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Macan</h5>
+                            <p class="card-text text-start">Personalidad entre la monotonía: Joven, dinámico y urbano.
+                            </p>
+                            <a href="#" class="btn btn-secondary">Conoce la nueva Macan</a>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="img/porsche_cayenne.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Cayenne</h5>
+                            <p class="card-text text-start">Moldeado por las Prestaciones, destacado por elegancia.</p>
+                            <a href="#" class="btn btn-secondary">Conoce ahora la Cayenne</a>
+                        </div>
+                    </div>
+                </div>
         </section>
         <!-- ends products -->
+        <section class=" m-5 p-5">
+            <h2><b>PERFECTAMENTE IRRACIONAL</b></h1>
+                <div class="row">
+                    <div class="col-8 mt-5">
+                        <iframe width="560" height="315"
+                            src="https://www.youtube.com/embed/_ruyhTgEvh0?si=s-n0NDWi9JfESg4Y"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            allowfullscreen>
+                        </iframe>
+                    </div>
+                    <div class="col-4 mt-5">
+                        <p class="text-start">Una herramienta definitiva para las visitas al circuito. Para la máxima
+                            agilidad,
+                            implantación central del motor atmosférico
+                            de seis cilindros y 4.0 litros de cilindrada. Seis válvulas de mariposa para una respuesta
+                            directa. Un concepto de motor de alto
+                            régimen, que alcanza fácilmente la marca de los 9.000 rpm. Una potencia de 500 CV (368 kW).
+                            ¿Racional? No siempre. ¿Perfecto?
+                            Cada instante.</p>
+                        <h3 class="mt-5 pt-5">Tecnología a la vista</h3>
+                        <h3 class="mt-5">Sonido purista con carácter deportivo</h3>
+                        <h3 class="mt-5">0 - 100 km/h en 3,4 s</h3>
+                        <h3 class="mt-5">315 km/h Top speed</h3>
+                        <h3 class="mt-5">Capo delantero con tomas de aire</h3>
+                        </iframe>
+                    </div>
+                </div>
+        </section>
     </main>
     <!-- starts footer -->
     <footer id="myAdd">
         <!-- starts social icons -->
         <div>
-            <!-- vinculos absolutos -->
-            <a href="https://coderhouse.com" target="_blank">
-                <img src="./img/iconos/facebook.png" alt="Seguinos en Facebook">
-            </a>
-            <a href="https://instagram.com" target="_blank">
-                <img src="./img/iconos/instagram.png" alt="Seguinos en Instagram">
-            </a>
+            <p class="text-center">Siguenos en nuestras redes sociales</p>
+            <div class="col text-center">
+                <a href="https://www.facebook.com/porsche/" target="_blank" class="me-4">
+                    <img src="./img/iconos/facebook_logo.png" alt="" width="22" height="22">
+                </a>
+                <a href="https://www.instagram.com/porsche" target="_blank" class="me-4">
+                    <img src="./img/iconos/instagram_logo.png" alt="" width="22" height="22">
+                </a>
+                <a href="https://twitter.com/Porsche" target="_blank" class="me-4">
+                    <img src="./img/iconos/X_logo.png" alt="" width="22" height="22">
+                </a>
+                <a href="https://www.youtube.com/Porsche" target="_blank">
+                    <img src="./img/iconos/youtube_logo.png" alt="" width="22" height="22">
+                </a>
+            </div>
+            <p class="mt-3">© 2024 Porsche Latin America, Diseñado por Daniel Valero.</p>
         </div>
         <!-- ends social icons -->
     </footer>

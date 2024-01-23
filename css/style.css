@@ -1,1 +1,91 @@
-/*  */
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400&display=swap');
+
+/* selector universal */
+/* reset */
+
+
+/* 1 - SELECTORES DE ETIQUETAS */
+h1{
+    font-size: 40px;/* tamaño del texto */
+    text-align: center;/* aliniación del texto */
+}
+h2{
+    font-size: 38px;/* tamaño del texto */
+    text-align: start;/* aliniación del texto */
+}
+
+h3{
+    font-size: 30px;/* tamaño del texto */
+    text-align: start;/* aliniación del texto */
+}
+p{
+    color: gray;/* color del texto */
+    font-size: 18px;/* tamaño del texto */
+    line-height: 24px;/* interlineado */
+    font-family: 'Nunito', sans-serif;/* familia tipográfica */
+    text-align: center;
+}
+h1,h2,h3,a{
+    font-family: 'Nunito', sans-serif;/* familia tipográfica */
+    color: white;/* color del texto */
+}
+
+footer{
+    background-color:  rgb(43, 40, 40);
+    color: white;
+    padding: 1%;
+}
+
+.logo {
+    height: 70px;
+    width: 310px;
+    margin-inline-start: 100px;
+
+}
+
+.btn {
+    background-color: rgb(43, 40, 40);
+    border: 1cap;
+    color: white;
+}
+
+iframe{
+    width: 1000px;
+    height: 600px;
+  }
+/* selectores descendentes */
+.navbar{
+    background-color: rgb(44, 42, 42);/* color del fondo */
+    align-items: center;
+    /*position - static - relative - absolute - fixed - sticky*/
+}
+    .navbar ul{
+        list-style: none;/* sacamos el estilo a las viñetas */
+    }
+        .navbar ul li a{
+            text-decoration: none;/* sacamos el subrayado a los links */
+            color: white;/* color del texto */
+            font-size: 22px;/* tamaño del texto */
+        }
+        /*hover*/
+
+/* 2 - selector de clase */
+.text-bold{
+    font-weight: bold;/* peso del texto -- negrita */
+}
+.text-italic{
+    font-style: italic;/* estilo del texto --- italic */
+}
+.text-orange{
+    color: orange;/* color del texto */
+}
+.bg-pattern{
+    background-color: black;
+    background-attachment: fixed;/* fondo fijo */
+}
+/* 3 - selector de ID */
+#myAdd{
+    /* propiedades, valor */
+}
+
+/*Box model - width- height - margin - padding - border*/
