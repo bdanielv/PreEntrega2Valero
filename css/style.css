@@ -55,20 +55,25 @@ iframe{
   }
 /* selectores descendentes */
 .navbar{
-    background-color: rgb(44, 42, 42);/* color del fondo */
+    background-color: rgb(43, 40, 40);/* color del fondo */
     align-items: center;
     /*position - static - relative - absolute - fixed - sticky*/
 }
     .navbar ul{
         list-style: none;/* sacamos el estilo a las viñetas */
+        background-color: rgb(43, 40, 40);
     }
         .navbar ul li a{
+            background-color: rgb(43, 40, 40);
             text-decoration: none;/* sacamos el subrayado a los links */
             color: white;/* color del texto */
             font-size: 22px;/* tamaño del texto */
         }
         /*hover*/
 
+        .container-fluid{
+            background-color: rgb(43, 40, 40);
+        }
 /* 2 - selector de clase */
 .text-bold{
     font-weight: bold;/* peso del texto -- negrita */

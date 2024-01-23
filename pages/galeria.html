@@ -24,32 +24,40 @@
 </head>
 
 <body class="bg-pattern">
-    <div class="col row">
-        <nav class="navbar">
-            <div class="col-3">
-                <img class="logo" src="../img/iconos/logo_porsche.png" alt="HOME">
-            </div>
-            <div class="col-9">
-                <ul class="nav justify-content-center">
-                    <li class="nav-item ms-4 me-4">
+    <nav class="navbar navbar-expand-lg" data-bs-theme="dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="../img/iconos/logo_porsche.png" alt="Porsche" width="300" height="70">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02"
+                aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item mt-1 ps-5 ms-4 me-4">
                         <a class="nav-link active" aria-current="page" href="../index.html">HOME</a>
                     </li>
-                    <li class="nav-item ms-4 me-4">
+                    <li class="nav-item mt-1 ms-4 me-4">
                         <a class="nav-link" href="../pages/galeria.html">GALERIA</a>
                     </li>
-                    <li class="nav-item ms-4 me-4">
+                    <li class="nav-item mt-1 ms-4 me-4">
                         <a class="nav-link" href="../pages/historia.html">HISTORIA</a>
                     </li>
-                    <li class="nav-item ms-4 me-4">
-                        <a class="nav-link" href="../pages/productos.html">PRODUCTOS</a>
+                    <li class="nav-item mt-1 ms-4 me-4">
+                        <a class="nav-link" href="../pages/vehiculos.html">VEHÍCULOS</a>
                     </li>
-                    <li class="nav-item ms-4 me-4">
+                    <li class="nav-item mt-1 ms-4 me-4">
                         <a class="nav-link" href="../pages/contacto.html">CONTACTO</a>
                     </li>
                 </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-secondary" type="submit">Search</button>
+                </form>
             </div>
-        </nav>
-    </div>
+        </div>
+    </nav>
     <!-- ends nav -->
     <!-- starts presentation -->
     <header>
@@ -85,6 +93,24 @@
     <!-- starts footer -->
     <footer id="myAdd">
         <!-- starts social icons -->
+        <div>
+            <p class="text-center">Siguenos en nuestras redes sociales</p>
+            <div class="col text-center">
+                <a href="https://www.facebook.com/porsche/" target="_blank" class="me-4">
+                    <img src="../img/iconos/facebook_logo.png" alt="" width="22" height="22">
+                </a>
+                <a href="https://www.instagram.com/porsche" target="_blank" class="me-4">
+                    <img src="../img/iconos/instagram_logo.png" alt="" width="22" height="22">
+                </a>
+                <a href="https://twitter.com/Porsche" target="_blank" class="me-4">
+                    <img src="../img/iconos/X_logo.png" alt="" width="22" height="22">
+                </a>
+                <a href="https://www.youtube.com/Porsche" target="_blank">
+                    <img src="../img/iconos/youtube_logo.png" alt="" width="22" height="22">
+                </a>
+            </div>
+            <p class="mt-3">© 2024 Porsche Latin America, Diseñado por Daniel Valero.</p>
+        </div>
         <!-- ends social icons -->
     </footer>
     <!-- ends footer -->

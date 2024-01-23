@@ -25,32 +25,41 @@
 </head>
 
 <body class="bg-pattern">
-    <div class="col row">
-        <nav class="navbar">
-            <div class="col-3">
-                <img class="logo" src="./img/iconos/logo_porsche.png" alt="HOME">
-            </div>
-            <div class="col-9">
-                <ul class="nav justify-content-center">
-                    <li class="nav-item ms-4 me-4">
+    <nav class="navbar navbar-expand-lg" data-bs-theme="dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="./img/iconos/logo_porsche.png" alt="Porsche" width="300" height="70">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02"
+                aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item mt-1 ps-5 ms-4 me-4">
                         <a class="nav-link active" aria-current="page" href="index.html">HOME</a>
                     </li>
-                    <li class="nav-item ms-4 me-4">
+                    <li class="nav-item mt-1 ms-4 me-4">
                         <a class="nav-link" href="pages/galeria.html">GALERIA</a>
                     </li>
-                    <li class="nav-item ms-4 me-4">
+                    <li class="nav-item mt-1 ms-4 me-4">
                         <a class="nav-link" href="pages/historia.html">HISTORIA</a>
                     </li>
-                    <li class="nav-item ms-4 me-4">
-                        <a class="nav-link" href="pages/productos.html">PRODUCTOS</a>
+                    <li class="nav-item mt-1 ms-4 me-4">
+                        <a class="nav-link" href="pages/vehiculos.html">VEHÍCULOS</a>
                     </li>
-                    <li class="nav-item ms-4 me-4">
+                    <li class="nav-item mt-1 ms-4 me-4">
                         <a class="nav-link" href="pages/contacto.html">CONTACTO</a>
                     </li>
                 </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-secondary" type="submit">Search</button>
+                </form>
             </div>
-        </nav>
-    </div>
+        </div>
+    </nav>
+
     <!-- ends nav -->
     <!-- starts presentation -->
     <header>
@@ -89,38 +98,59 @@
         <!-- starts intro -->
         <section class="m-5 p-4">
             <h1><b>UNA FILOSOFÍA QUE SE COMBINA CON EL ESPÍRITU DE UNA ÉPOCA</b></h1>
-            <div class="col row">
-                <div class="col-8 p-5">
-                    <p class="mt-5">En 1963, el Profesor Ferdinand Alexander Porsche creó uno de los objetos de
-                        diseño
-                        más importantes de la historia
-                        contemporánea con el 911. Con su visión de llevar los principios y la leyenda de Porsche más
-                        allá de
-                        los límites del
-                        automóvil, fundó la exclusiva marca de estilo de vida Porsche Design en 1972. Su filosofía y
-                        lenguaje de diseño
-                        perduran en todos los productos de Porsche Design hasta el día de hoy.</p>
 
-                    <p>Las características únicas de la marca se deben al fundador de la empresa, a su personalidad y su
-                        historia:
-                        el mayor de los cuatro hijos de Dorothea y Ferry Porsche nació el 11 de diciembre de 1935 y, de
-                        niño, pasaba
-                        mucho tiempo en las oficinas de diseño y desarrollo de su abuelo, en Stuttgart. En 1943 la
-                        familia se estableció
-                        en Austria y el Prof. Ferdinand Alexander Porsche fue al colegio en Zell am See.</p>
-
-                    <p>Ferdinand Alexander Porsche no atrajo mucha atención hacia su persona. Siguió siendo un diseñador
-                        tranquilo y de clase mundial. Sin embargo, la competencia, el ingenio y el delicado diseño en
-                        cada uno
-                        de sus coches, lo llevo a posicionarse en el podio de la industria automotriz y ser referente en
-                        los vehículos de
-                        alto rendimiento, no solo por la ingeniería de su motor, también por la pasión y la dedicación
-                        que se ve reflejada
-                        cada uno de los modelos de porsche.</p>
+            <div class="row p-4">
+                <div class="col-sm-6 mb-3 mb-sm-0">
+                    <div class="card text-bg-dark">
+                        <div class="card-body">
+                            <div class="card-text p-3">En 1963, el Profesor Ferdinand Alexander Porsche creó uno de los
+                                objetos de
+                                diseño
+                                más importantes de la historia
+                                contemporánea con el 911. Con su visión de llevar los principios y la leyenda de Porsche
+                                más
+                                allá de
+                                los límites del
+                                automóvil, fundó la exclusiva marca de estilo de vida Porsche Design en 1972. Su
+                                filosofía y
+                                lenguaje de diseño
+                                perduran en todos los productos de Porsche Design hasta el día de hoy.
+                            </div>
+                            <div class="card-text p-3">Las características únicas de la marca se deben al fundador de la
+                                empresa, a su personalidad y su
+                                historia:
+                                el mayor de los cuatro hijos de Dorothea y Ferry Porsche nació el 11 de diciembre de
+                                1935 y, de
+                                niño, pasaba
+                                mucho tiempo en las oficinas de diseño y desarrollo de su abuelo, en Stuttgart. En 1943
+                                la
+                                familia se estableció
+                                en Austria y el Prof. Ferdinand Alexander Porsche fue al colegio en Zell am See.
+                            </div>
+                            <div class="card-text p-3">Ferdinand Alexander Porsche no atrajo mucha atención hacia su
+                                persona. Siguió siendo un diseñador
+                                tranquilo y de clase mundial. Sin embargo, la competencia, el ingenio y el delicado
+                                diseño en
+                                cada uno
+                                de sus coches, lo llevo a posicionarse en el podio de la industria automotriz y ser
+                                referente en
+                                los vehículos de
+                                alto rendimiento, no solo por la ingeniería de su motor, también por la pasión y la
+                                dedicación
+                                que se ve reflejada
+                                cada uno de los modelos de porsche.
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <div class="col-4 mt-5">
-                    <div class="card mt-5" style="width: 34rem;">
-                        <img src="img/ferdinand_alexander.jpeg" class="card-img-top" alt="Ferdinand Alexander">
+                <div class="col-sm-6">
+                    <div class="card text-bg-dark">
+                        <div class="card-body">
+                            <div class="text-center">
+                                <img src="./img/ferdinand_alexander.jpg" class="" alt="..."
+                                    width="770" height="409">
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
