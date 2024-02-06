@@ -48,11 +48,6 @@ footer{
     border: 1cap;
     color: white;
 }
-
-iframe{
-    width: 1000px;
-    height: 600px;
-  }
 /* selectores descendentes */
 .navbar{
     background-color: rgb(43, 40, 40);/* color del fondo */

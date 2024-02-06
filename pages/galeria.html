@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="es" class="container-fluid">
 
 <head>
     <meta charset="UTF-8">
@@ -7,20 +7,21 @@
     <title>Porsche</title>
     <!-- favicon -->
     <link rel="shortcut icon" href="../img/iconos/favicon_logo.png" type="image/x-icon">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
         crossorigin="anonymous"></script>
 </head>
 
-    <!-- link a mi hoja de estilos  FORMA RECOMENDADA-->
-    <link rel="stylesheet" href="../css/style.css">
-    <!-- segunda forma NO RECOMENDAD -->
-    <style>
-        /* h2{
+<!-- link a mi hoja de estilos  FORMA RECOMENDADA-->
+<link rel="stylesheet" href="../css/style.css">
+<!-- segunda forma NO RECOMENDAD -->
+<style>
+    /* h2{
             color: red;
         } */
-    </style>
+</style>
 </head>
 
 <body class="bg-pattern">
@@ -35,7 +36,7 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                    <li class="nav-item mt-1 ps-5 ms-4 me-4">
+                    <li class="nav-item mt-1 ps-4 me-4">
                         <a class="nav-link active" aria-current="page" href="../index.html">HOME</a>
                     </li>
                     <li class="nav-item mt-1 ms-4 me-4">
@@ -52,7 +53,7 @@
                     </li>
                 </ul>
                 <form class="d-flex" role="search">
-                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <input class="form-control me-2 ms-4" type="search" placeholder="Search" aria-label="Search">
                     <button class="btn btn-outline-secondary" type="submit">Search</button>
                 </form>
             </div>
@@ -61,32 +62,82 @@
     <!-- ends nav -->
     <!-- starts presentation -->
     <header>
-        
+
     </header>
     <!-- ends presentation -->
     <main>
         <!-- starts intro -->
         <section>
-            <h1 class="mt-5"><b>PORSCHE 911 CARRERA T</b></h1>
-            <p>La silueta del 911 Carrera es inconfundible gracias a la icónica línea de techo que se inclina
-                elegantemente, y que ha conformado
-                el ADN de la marca Porsche desde 1963, al igual que las extraordinarias prestaciones de sus
-                vehículos
-                deportivos. La versión coupé
-                del 911 encarna el ADN Porsche en su forma más pura: un capó largo y plano, parabrisas con marcado
-                ascenso y una línea de techo
-                en suave descenso hacia atrás caracterizaban ya al primer 911. El carácter deportivo se refuerza con
-                los
-                retrovisores exteriores, las
-                molduras decorativas, la rejilla del capó trasero y, en las puertas, el distintivo «PORSCHE» en
-                color de
-                contraste Gris Ágata.
-                Las dos variantes de la inscripción trasera también cuentan con un acabado en color Gris Ágata.</p>
+            <h1 class="mt-5"><b>Porsche Live</b></h1>
+            <div class="row">
+                <div class="col-sm-6 mb-3 mb-sm-0">
+                    <div class="accordion mt-4" id="accordionPanelsStayOpenExample">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true"
+                                    aria-controls="panelsStayOpen-collapseOne">
+                                    Motor
+                                </button>
+                            </h2>
+                            <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show">
+                                <div class="accordion-body">
+                                    <div class="card mt-4 mb-4">
+                                        <img src="../img/porsche_1.jpg" class="card-img-top" alt="...">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false"
+                                    aria-controls="panelsStayOpen-collapseTwo">
+                                    Diseño
+                                </button>
+                            </h2>
+                            <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse">
+                                <div class="accordion-body">
+                                    <strong>This is the second item's accordion body.</strong> It is hidden by default,
+                                    until the collapse plugin adds the appropriate classes that we use to style each
+                                    element. These classes control the overall appearance, as well as the showing and
+                                    hiding via CSS transitions. You can modify any of this with custom CSS or overriding
+                                    our default variables. It's also worth noting that just about any HTML can go within
+                                    the <code>.accordion-body</code>, though the transition does limit overflow.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false"
+                                    aria-controls="panelsStayOpen-collapseThree">
+                                    Autonomía
+                                </button>
+                            </h2>
+                            <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse">
+                                <div class="accordion-body">
+                                    <strong>This is the third item's accordion body.</strong> It is hidden by default,
+                                    until the collapse plugin adds the appropriate classes that we use to style each
+                                    element. These classes control the overall appearance, as well as the showing and
+                                    hiding via CSS transitions. You can modify any of this with custom CSS or overriding
+                                    our default variables. It's also worth noting that just about any HTML can go within
+                                    the <code>.accordion-body</code>, though the transition does limit overflow.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="card mt-4 mb-4">
+                        <img src="../img/porsche_1.jpg" class="card-img-top" alt="...">
+                    </div>
+                </div>
         </section>
         <!-- ends intro -->
         <!-- starts products -->
         <section>
-            
+
         </section>
         <!-- ends products -->
     </main>

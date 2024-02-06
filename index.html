@@ -1,11 +1,10 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="es" class="container-fluid">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Porsche</title>
-    <!-- favicon -->
     <link rel="shortcut icon" href="./img/iconos/favicon_logo.png" type="image/x-icon">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
@@ -14,13 +13,9 @@
         crossorigin="anonymous"></script>
 </head>
 
-<!-- link a mi hoja de estilos  FORMA RECOMENDADA-->
 <link rel="stylesheet" href="./css/style.css">
-<!-- segunda forma NO RECOMENDAD -->
 <style>
-    /* h2{
-            color: red;
-        } */
+    
 </style>
 </head>
 
@@ -36,7 +31,7 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                    <li class="nav-item mt-1 ps-5 ms-4 me-4">
+                    <li class="nav-item mt-1 ps-4 me-4">
                         <a class="nav-link active" aria-current="page" href="index.html">HOME</a>
                     </li>
                     <li class="nav-item mt-1 ms-4 me-4">
@@ -53,15 +48,13 @@
                     </li>
                 </ul>
                 <form class="d-flex" role="search">
-                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <input class="form-control me-2 ms-4" type="search" placeholder="Search" aria-label="Search">
                     <button class="btn btn-outline-secondary" type="submit">Search</button>
                 </form>
             </div>
         </div>
     </nav>
 
-    <!-- ends nav -->
-    <!-- starts presentation -->
     <header>
         <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner">
@@ -93,11 +86,10 @@
             </button>
         </div>
     </header>
-    <!-- ends presentation -->
+
     <main>
-        <!-- starts intro -->
         <section class="m-5 p-4">
-            <h1><b>UNA FILOSOFÍA QUE SE COMBINA CON EL ESPÍRITU DE UNA ÉPOCA</b></h1>
+            <h2 class=" text-center"><b>UNA FILOSOFÍA QUE SE COMBINA CON EL ESPÍRITU DE UNA ÉPOCA</b></h2>
 
             <div class="row p-4">
                 <div class="col-sm-6 mb-3 mb-sm-0">
@@ -140,6 +132,7 @@
                                 que se ve reflejada
                                 cada uno de los modelos de porsche.
                             </div>
+                            <div class="card-text p-2">"Drive by Dreams"</div>
                         </div>
                     </div>
                 </div>
@@ -147,16 +140,14 @@
                     <div class="card text-bg-dark">
                         <div class="card-body">
                             <div class="text-center">
-                                <img src="./img/ferdinand_alexander.jpg" class="" alt="..."
-                                    width="770" height="409">
+                                <img src="./img/ferdinand_alexander.jpg" class="img-fluid" alt="...">
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
-        <!-- ends intro -->
-        <!-- starts products -->
+        
         <section class="m-5 p-5">
             <h2><b>MODELOS</b></h1>
                 <div class="card-group mt-5">
@@ -180,8 +171,8 @@
                     <div class="card">
                         <img src="img/porsche_taycan.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
-                            <h5 class="card-title">Taycan</h5>
-                            <p class="card-text text-start">Nunca cinco letras habían logrado irradiar tanta
+                            <h5 class="card-title">Taycan GTS</h5>
+                            <p class="card-text text-start">Nunca tres letras habían logrado irradiar tanta
                                 fascinación.</p>
                             <a href="#" class="btn btn-secondary">Conoce ahora el nuevo Taycan</a>
                         </div>
@@ -217,40 +208,47 @@
                     </div>
                 </div>
         </section>
-        <!-- ends products -->
-        <section class=" m-5 p-5">
-            <h2><b>PERFECTAMENTE IRRACIONAL</b></h1>
-                <div class="row">
-                    <div class="col-8 mt-5">
-                        <iframe width="560" height="315"
-                            src="https://www.youtube.com/embed/_ruyhTgEvh0?si=s-n0NDWi9JfESg4Y"
+        
+        <section class="p-5 m-5">
+            <h2 class="mb-5"><b>Perfectamente irracional.</b></h2>
+            <div class="card text-bg-dark mb-3">
+                <div class="row g-0">
+                    <div class="col-md-6">
+                        <iframe class="container-fluid" width="590" height="455"
+                            src="https://www.youtube.com/embed/_ruyhTgEvh0?si=edrUuGLUqcXuzUUN"
                             title="YouTube video player" frameborder="0"
                             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                             allowfullscreen>
                         </iframe>
                     </div>
-                    <div class="col-4 mt-5">
-                        <p class="text-start">Una herramienta definitiva para las visitas al circuito. Para la máxima
-                            agilidad,
-                            implantación central del motor atmosférico
-                            de seis cilindros y 4.0 litros de cilindrada. Seis válvulas de mariposa para una respuesta
-                            directa. Un concepto de motor de alto
-                            régimen, que alcanza fácilmente la marca de los 9.000 rpm. Una potencia de 500 CV (368 kW).
-                            ¿Racional? No siempre. ¿Perfecto?
-                            Cada instante.</p>
-                        <h3 class="mt-5 pt-5">Tecnología a la vista</h3>
-                        <h3 class="mt-5">Sonido purista con carácter deportivo</h3>
-                        <h3 class="mt-5">0 - 100 km/h en 3,4 s</h3>
-                        <h3 class="mt-5">315 km/h Top speed</h3>
-                        <h3 class="mt-5">Capo delantero con tomas de aire</h3>
-                        </iframe>
+                    <div class="col-md-6">
+                        <div class="card-body">
+                            <h5 class="card-title mt-3">Porsche 718 Cayman GT4 RS</h5>
+                            <p class="card-text text-start mt-3">Una herramienta definitiva para las visitas al circuito.
+                                Para la máxima
+                                agilidad,
+                                implantación central del motor atmosférico
+                                de seis cilindros y 4.0 litros de cilindrada. Seis válvulas de mariposa para una
+                                respuesta
+                                directa. Un concepto de motor de alto
+                                régimen, que alcanza fácilmente la marca de los 9.000 rpm. Una potencia de 500 CV (368
+                                kW).
+                                ¿Racional? No siempre. ¿Perfecto?
+                                Cada instante.</p>
+                            <p class="card-text text-start mt-5"><b>Tecnología a la vista</b></p>
+                            <p class="card-text text-start mt-1"><b>Sonido purista con carácter deportivo</b></p>
+                            <p class="card-text text-start mt-1"><b>0 - 100 km/h en 3,4 s</b></p>
+                            <p class="card-text text-start mt-1"><b>315 km/h Top speed</b></p>
+                            <p class="card-text text-start mt-1"><b>Capo delantero con tomas de aire</b></p>
+                            <p class="card-text text-start mt-1"><b>Elegante y agresivo</b></p>
+                        </div>
                     </div>
                 </div>
+            </div>
         </section>
     </main>
-    <!-- starts footer -->
+    
     <footer id="myAdd">
-        <!-- starts social icons -->
         <div>
             <p class="text-center">Siguenos en nuestras redes sociales</p>
             <div class="col text-center">
@@ -269,9 +267,7 @@
             </div>
             <p class="mt-3">© 2024 Porsche Latin America, Diseñado por Daniel Valero.</p>
         </div>
-        <!-- ends social icons -->
     </footer>
-    <!-- ends footer -->
 </body>
 
 </html>
